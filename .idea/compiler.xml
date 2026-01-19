@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="quality-agent" />
+        <module name="cicd-agent" />
+        <module name="codegen-agent" />
+        <module name="observability-service" />
+        <module name="testing-agent" />
+        <module name="orchestrator-service" />
+        <module name="memory-service" />
+        <module name="architecture-agent" />
+        <module name="requirements-agent" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="architecture-service" target="17" />
+      <module name="requirements-service" target="17" />
+      <module name="testing-agent (1)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="architecture-agent" options="-parameters" />
+      <module name="architecture-service" options="-parameters" />
+      <module name="cicd-agent" options="-parameters" />
+      <module name="codegen-agent" options="-parameters" />
+      <module name="memory-service" options="-parameters" />
+      <module name="observability-service" options="-parameters" />
+      <module name="orchestrator-service" options="-parameters" />
+      <module name="quality-agent" options="-parameters" />
+      <module name="requirements-agent" options="-parameters" />
+      <module name="requirements-service" options="-parameters" />
+      <module name="testing-agent" options="-parameters" />
+      <module name="testing-agent (1)" options="-parameters" />
+    </option>
+  </component>
+</project>

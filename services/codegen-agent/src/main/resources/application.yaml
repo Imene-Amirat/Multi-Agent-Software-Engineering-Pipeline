@@ -1,0 +1,12 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: codegen-agent
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

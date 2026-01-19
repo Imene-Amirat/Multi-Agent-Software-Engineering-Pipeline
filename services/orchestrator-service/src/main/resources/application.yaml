@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: orchestrator-service
+
+agents:
+  memory-url: http://localhost:8010
+  observability-url: http://localhost:8011
+  requirements-url: http://localhost:8001
+  architecture-url: http://localhost:8002
+  codegen-url: http://localhost:8003
+  testing-url: http://localhost:8004
+  quality-url: http://localhost:8005
+  cicd-url: http://localhost:8006
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

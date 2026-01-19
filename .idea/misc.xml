@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/services/memory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/observability-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/requirements-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/architecture-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/codegen-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/requirements-agent/pom.xml" />
+        <option value="$PROJECT_DIR$/services/architecture-agent/pom.xml" />
+        <option value="$PROJECT_DIR$/services/codegen-agent/pom.xml" />
+        <option value="$PROJECT_DIR$/services/testing-agent/testing-agent/pom.xml" />
+        <option value="$PROJECT_DIR$/services/quality-agent/pom.xml" />
+        <option value="$PROJECT_DIR$/services/cicd-agent/pom.xml" />
+        <option value="$PROJECT_DIR$/services/orchestrator-service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/testing-agent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
